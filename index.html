@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+	 crossorigin="anonymous">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<style>
+		body {
+			position: relative;
+		}
+
+		#home {
+			text-align: center;  
+
+		}
+		#myform{
+			justify-content: center;
+		}
+
+		#why {
+			text-align: center;
+		}
+
+		#footer {
+			text-align: center;
+			background-color: aquamarine;
+			margin-top: 60px;
+			padding-bottom: 60px;
+			padding-top: 60px;
+		}
+
+		.download_icon{
+			width:180px;
+		}
+	</style>
+
+</head>
+
+<body data-spy="scroll" data-target="#myNav" data-offset="100">
+	<nav id='myNav' class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+		<span class="navbar-brand mb-0 h1">MyApp</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="#home">Home
+					<span class="sr-only">(current)</span>
+				</a>
+				<a class="nav-item nav-link" href="#why">About</a>
+				<a class="nav-item nav-link" href="#footer">Download The App</a>
+			</div>
+		</div>
+		<form class="form-inline">
+			<input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Search">
+			<input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Search">
+			<button class="btn btn-success my-2 my-sm-0" type="submit">Log in</button>
+		</form>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid" id="home" style="margin-top:56px;">
+		<h1 class="display-3">My Awesome App!</h1>
+		<p class="lead">This is why YOU should download this fantastic app!</p>
+		<hr class="my-4">
+		<p class="">Want to know more? Join our mailing list!</p>
+		<form class="form-inline" id="myform">
+			<div class="form-row">
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">@</span>
+						<input type="email" class="form-control " placeholder="Your Email">
+					</div>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Sign up</button>
+			</div>
+		</form>
+	</div>
+	<div class='container' id="why">
+		<h1>Why This App is awesome?</h1>
+		<p class="lead">Summary, once again, check it out!!</p>
+
+	</div>
+	<div class="container" id="about">
+		<div class="card-deck">
+			<div class="card">
+				<img class="card-img-top" src="./images/bottle1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">
+						<i class="fa fa-address-book" aria-hidden="true"></i> Card title</h4>
+					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
+						bit longer.</p>
+
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="./images/bottle1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">
+						<i class="fa fa-bandcamp" aria-hidden="true"></i> Card title</h4>
+					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="./images/bottle1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">
+						<i class="fa fa-id-card-o" aria-hidden="true"></i> Card title</h4>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer
+						content than the first to show that equal height action.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="" id="footer">
+		<h2>Download the app!</h2>
+		<p class="lead">為什麼你應該馬上下載？</p>
+		<div class="row ">
+			<div class="col">
+					<a href="">
+						<img src="./images/appstore.png" alt="appstore" class='download_icon'>
+					</a>
+
+
+					<a href="">
+						<img src="./images/google_play.png" alt="google_play" class='download_icon'>
+					</a>
+
+				</div>		
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+	 crossorigin="anonymous"></script>
+
+	<script>
+
+	</script>
+</body>
+
+</html>
